@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.utfpr.dafnygarcia.shoppinglist">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ListActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CrudProductActivity"
+            android:parentActivityName=".ProductListActivity" />
+        <activity
+            android:name=".DevelopmentActivity"
+            android:parentActivityName=".ListActivity" />
+        <activity
+            android:name=".Activity_NewList"
+            android:label="@string/title_activity__new_list"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:parentActivityName=".ListActivity"/>
+        <activity
+            android:name=".ProductListActivity"
+            android:parentActivityName=".Activity_NewList"></activity>
+    </application>
+
+</manifest>

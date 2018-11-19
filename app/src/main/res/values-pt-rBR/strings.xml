@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Lista de Compras</string>
+    <string name="action_settings">Preferências</string>
+    <string name="back">Voltar</string>
+    <string name="title_activity_products">Activity de Produtos</string>
+    <string name="delete">Apagar</string>
+    <string name="save">Salvar</string>
+    <string name="descriptionProduct">Produto</string>
+    <string name="listName">Nome da Lista</string>
+    <string name="add_product">Adicionar Produto</string>
+    <string name="products">Produtos</string>
+    <string name="new_product">Novo Produto</string>
+    <string name="name">Nome</string>
+    <string name="obs">Obs</string>
+    <string name="name_empty">Nome não pode ser vazio!</string>
+    <string name="update_product">Atualizar Produto</string>
+    <string name="new_list">Nova Lista</string>
+    <string name="informations3">Desenvolvido por: Dafny Garcia</string>
+    <string name="informations2">Versão: 1.0.0</string>
+    <string name="informations1">Universidade Tecnológica Federal do Paraná</string>
+    <string name="info">Informações</string>
+    <string name="change_bg">Mudar cor de fundo</string>
+    <string name="coral">Coral</string>
+    <string name="sea">Mar</string>
+    <string name="ype">Ypê</string>
+    <string name="pick_color">Escolha uma cor:</string>
+    <string name="transparent">Transparente</string>
+    <string name="cancel">Cancelar</string>
+    <string name="cloud">Nuvem</string>
+
+</resources>

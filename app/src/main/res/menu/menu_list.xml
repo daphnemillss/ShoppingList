@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.edu.utfpr.dafnygarcia.shoppinglist.ListActivity">
+    <item
+        android:id="@+id/delete"
+        android:icon="@mipmap/ic_launcher_foreground_delete"
+        android:orderInCategory="101"
+        android:title="@string/delete"
+        android:visible="false"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@mipmap/ic_launcher_foreground_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom">
+
+        <menu>
+
+            <item
+                android:id="@+id/action_bg_color"
+                android:title="@string/change_bg" />
+            <item
+                android:id="@+id/action_info"
+                android:title="@string/info"
+                app:showAsAction="never" />
+        </menu>
+
+        </item>
+</menu>
