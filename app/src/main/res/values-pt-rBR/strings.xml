@@ -28,5 +28,15 @@
     <string name="transparent">Transparente</string>
     <string name="cancel">Cancelar</string>
     <string name="cloud">Nuvem</string>
+    <string name="newListName">Nome da Nova Lista</string>
+    <string name="aviso">Alerta</string>
+    <string name="ok">OK</string>
+    <string name="confirmacao">Confirmação</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="delete_product">Apagar Produto</string>
+    <string name="deseja_realmente_apagar">Deseja apagar?</string>
+    <string name="new_shopping_list">Nova Lista de Compras</string>
+    <string name="title_activity__new_list">Activity_NovaLista</string>
 
 </resources>
